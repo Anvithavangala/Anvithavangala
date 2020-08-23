@@ -1,0 +1,6 @@
+<a href="{% url 'home' %}"> My Best Home </a>
+<h1> Count Of Each Word is </h1>
+{% for word,freq in yourlist %}
+{{word}} - {{freq}}
+<br/>
+{% endfor %}

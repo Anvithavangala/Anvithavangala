@@ -1,0 +1,7 @@
+<h1> WORD FREQUENCY </h1>
+<a href="{% url 'home' %}" > My Home </a>
+<form action="{% url 'count' %}">
+<textarea cols="40" rows="10" name="full text"></textarea>
+<br/>
+<input type="submit" value="CountMe"/>
+</form>
